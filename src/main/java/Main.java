@@ -12,7 +12,7 @@ public class Main {
         LoanManager m2 = new LoanManager();
         m2.addLoan("Alice Betsy", 500, 0.05);
         m2.addLoan("Emily Hee", 25, 0.15);
-        m2.setAsPaid("Alice Betsy");
+        m2.setAsPaid("Alice Betsya");
         m2.listLoans();
         System.out.println("profit from m2: " + m2.calculateProfitEarned());
     }
